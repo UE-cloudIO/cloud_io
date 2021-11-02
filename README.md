@@ -80,6 +80,8 @@ Avec ses points ils pourront acheter des skins dans la boutique.
 
 Un nombre de joueur est donnée en début de partie, et le but du jeux est d'être le dernier survivant.
 
+![brouillon map](/preview/survive.JPG)
+
 **Caractéristique de la map :**
 * Une île avec une éolienne/ventillateur au centre de la map
 * Limité format carré et se reduit avec le temps (zone)
@@ -92,6 +94,10 @@ Des parcelles de nuages sont placé un peu partout sur la map et le joueur peux 
 ### 3. Labyrinthe, city
 
 Ce mode de jeux permet d'intéragir avec la map. Le jeu ce déroule dans une ville de gratte-ciel. Et les joueurs doivent s'affronter à travers la ville. Si un joueur se prend un batiment, la partie qui touche le batiment se désagraige.
+
+**Caractéristique de la map :**
+* Limité format carré et se reduit avec le temps (zone)
+* Deplacement en X ,Y et Z
 ### 4. Match a mort par équipe, chateau dans le ciel
 
 Deux team s'affronte. L'équipe rouge et bleu.
@@ -118,7 +124,7 @@ Tourelle :
 Les tourelles ont la capacité a ralentir les nuages énemies.
 Pour les utilisés il faut que les joueurs nuages fassent un pont de nuages jusqu'a la tourelles. 
 
-![brouillon map](/preview/equipe.-tourelles.JPG)
+![brouillon map](/preview/equipe-tourelles.JPG)
 
 
 ⚠ Si le pont est brisé la tour ne fonctionnera plus.
