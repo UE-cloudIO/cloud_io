@@ -1,7 +1,6 @@
 # cloud_IO
 
-Cloud.io est un jeux multijoueur crée sur unreal Engine. Il sera disponibles sur tous toutes les plateformes web.
-
+Cloud_io est un jeux multijoueur crée sur unreal Engine. Il sera disponibles sur tous toutes les plateformes web.
 
 ## Comment joué :
 
