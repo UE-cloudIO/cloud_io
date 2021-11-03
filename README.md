@@ -14,6 +14,12 @@ Le joueur avance perpétuellement, il faut donc faire attention où l'on se diri
 **Pour match a mort:**
 
 * Donner un peu de nuage avec le click droit. 
+
+<hr/>
+
+Les nuages les plus petit se déplace plus rapidement que les gros.
+Si un petit doit se diviser mais n'est pas assez gros -> meurt -> deviens des parcelles de nuages.
+
 ## But du jeux
 
 Cloud_io a différents mode de jeux :
@@ -42,7 +48,7 @@ Des petits avions se déplace rapidement dans la map (ils vont aussi vite que le
 **Propriété du bonus:**
 Le joueur qui a la puissance chargé deviens un cumunolyngus et s'assombri, le temps chargé du bonus est limité.
 Puissance chargé :
-Le joueur peut utiliser son pouvoir sur 1 (ou plusieurs ?) énemies. Lorsque celui-ci est touché il se split en 2 et il est immobilisé 2s (temps a définir).  
+Le joueur peut utiliser son pouvoir sur 1 ou plusieurs énemies limités a sa vision. Lorsque celui-ci est touché il se split en 2 et il est immobilisé 2s (temps a définir).  
 
 
 Convoit blindé :
@@ -61,6 +67,18 @@ Avion blindé:
 
 Chasseur :
 Des avions très rapide se déplacant en sprirale. Si un joueur est touché par un chasseur il se splitera en 2.
+
+Tornade :
+Création d'un tourbillon qui attire les nuages entre eux -> les plus gros mangeront les plus petit. ⚠ La tornade en elle-même ne fais pas de dégats, elle ne fais que désorienté les joueurs !
+
+* A définir -> la tornade split-il les gros nuages en 2 ?
+
+**Apparition :**
+* cas 1 :
+    Une tornade peut spawn aléatoirement dans la map. Une indication alerte qu'une tornade approche.
+
+* cas 2 :
+    Apparation d'une tornade qui se déplace dans la map.
 ### 1.2 Avion freestyle
 
 Au début de la partie le joueur à la possibilité de soit jouer les nuages, soit jouer les avions frestyle : 
@@ -93,6 +111,11 @@ Des parcelles de nuages sont placé un peu partout sur la map et le joueur peux 
 ### 3. Labyrinthe, city
 
 Ce mode de jeux permet d'intéragir avec la map. Le jeu ce déroule dans une ville de gratte-ciel. Et les joueurs doivent s'affronter à travers la ville. Si un joueur se prend un batiment, la partie qui touche le batiment se désagraige.
+
+#### Piège dissimulé
+
+Passage secret dans la map :
+On peut se déplacer 
 
 **Caractéristique de la map :**
 * Limité format carré et se reduit avec le temps (zone)
@@ -137,4 +160,26 @@ Il est également possible d'attaquer un joueur nuage,mais les tirs de bombardie
 Un nuage a la possibilité de manger un bombardier. Si il y arrive il se transforme en cumunolingus et peut envoyé des éclairs au enemies.
 
 
+
+### Coté estétique 
+
+* caméra à la 3eme personnes en isométrique
+
+
+A définir :
+
+* La map -> s'éclairci en fonction du chemin parcouru ?
+* Skins -> matériaux différent par rapport a des ref, peut-etre autre chose qu'un nuages.
+
+
+### Bonus a définir
+
+* Trompe oeuil (compact) :
+Permet de faire croire au autre que l'on est plus petit que l'on est pendant un temps limité. 
+
+* Mode Fantome -> arc en ciel:
+On est invincible mais on ne peut manger personne, et les autres joeurs ne savent pas la taille que l'on a.
+
+* Mode vergla (mode de jeux : XYZ):
+fait tomber du vergla quand on se déplace.
 
